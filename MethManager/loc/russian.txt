@@ -1,0 +1,20 @@
+{
+    "meth_manager_title": "Meth manager",
+    "meth_manager_description": "Не позволяет добавить неверный ингредиент на Варке мета и Лабораторных крысах",
+
+    "meth_manager_repeat": "Повторять сообщения",
+    "meth_manager_repeat_desc": "Повторять сообщения или отправлять только один раз",
+
+
+    "meth_manager_ing_added": "Ингредиент добавлен",
+
+    "meth_manager_add_mu": "Добавьте соляную кислоту",
+    "meth_manager_add_cs": "Добавьте каустическую соду",
+    "meth_manager_add_hcl": "Добавьте хлористый водород",
+
+    "meth_manager_meth_done": "Мет готов!",
+
+
+    "meth_manager_wrong_ing": "Неверный ингредиент!",
+    "meth_manager_team_wrong_ing": "попытался добавить неверный ингредиент!"
+}

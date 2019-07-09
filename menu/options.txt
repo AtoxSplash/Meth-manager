@@ -1,0 +1,16 @@
+{
+	"menu_id" : "mm_options_menu",
+	"parent_menu_id" : "blt_options",
+	"title" : "meth_manager_title",
+	"description" : "meth_manager_description",
+	"items" : [
+		{
+			"type" : "toggle",
+			"id" : "mm_repeat_msg",
+			"title" : "meth_manager_repeat",
+			"description" : "meth_manager_repeat_desc",
+			"callback" : "MethManagerTest"
+			"value" : "mm_repeat_msg"
+		}
+	]
+}

@@ -1,0 +1,27 @@
+{
+	"blt_version": 2,
+	"name": "MethManager",
+	"description": "Prevents adding the wrong ingredient in cookoff",
+	"author": "Splash",
+	"contact": "Splash#4889 - Discord or AtoxSplash - Steam",
+	"version": "0.5",
+	"hooks": [
+		{ "hook_id": "lib/network/handlers/unitnetworkhandler", "script_path": "main.lua" },
+		{ "hook_id": "lib/network/base/networkpeer", "script_path": "main.lua" },
+		{ "hook_id": "lib/managers/objectinteractionmanager", "script_path": "main.lua" },
+		{ "hook_id": "lib/managers/dialogmanager", "script_path": "main.lua" },
+		{ "hook_id": "lib/managers/menumanager", "script_path": "main.lua" },
+		{ "hook_id": "lib/managers/localizationmanager", "script_path": "main.lua" }
+	],
+	"keybinds": [
+		{
+			"keybind_id": "meth_manager_keybind",
+			"name": "Display mode",
+			"description": "Change between chat and hud",
+			"script_path": "main.lua",
+			"run_in_menu": false,
+			"run_in_game": true,
+			"localized": false
+		}
+	]
+}

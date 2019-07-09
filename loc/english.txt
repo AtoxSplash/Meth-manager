@@ -1,0 +1,20 @@
+{
+	"meth_manager_title": "Meth manager",
+    "meth_manager_description": "Prevents adding the wrong ingrident in cook off / lab rats",
+
+    "meth_manager_repeat": "Repeat messages",
+    "meth_manager_repeat_desc": "Repeat messages or only send them once",
+
+
+    "meth_manager_ing_added": "Ingredient added",
+
+    "meth_manager_add_mu": "Add muriatic acid",
+    "meth_manager_add_cs": "Add caustic soda",
+    "meth_manager_add_hcl": "Add hydrogen chloride",
+
+    "meth_manager_meth_done": "Meth batch is done!",
+
+
+    "meth_manager_wrong_ing": "Wrong ingrident!",
+    "meth_manager_team_wrong_ing": "just tried adding the wrong ingredient!"
+}

@@ -82,7 +82,43 @@ end
 
 if RequiredScript == "lib/managers/localizationmanager" then
 	Hooks:Add("LocalizationManagerPostInit", "MethManager_LocalizationManagerPostInit", function(loc)
-		loc:load_localization_file(MethManager._path.. "loc/english.txt")
+		local language_filename
+
+		if BLT.Localization._current == 'cht' or BLT.Localization._current == 'zh-cn' then
+			MethManager._abbreviation_length_v = 2
+			language_filename = 'chinese.txt'
+		end
+
+		if not language_filename then
+			local modname_to_language = {
+				['Payday 2 Korean patch'] = 'korean.txt',
+				['PAYDAY 2 THAI LANGUAGE Mod'] = 'thai.txt',
+			}
+			for _, mod in pairs(BLT and BLT.Mods:Mods() or {}) do
+				language_filename = mod:IsEnabled() and modname_to_language[mod:GetName()]
+				if language_filename then
+					MethManager._abbreviation_length_v = 2
+					break
+				end
+			end
+		end
+
+		if not language_filename then
+			for _, filename in pairs(file.GetFiles(MethManager._path .. 'loc/')) do
+				local str = filename:match('^(.*).txt$')
+
+				if str and Idstring(str) and Idstring(str):key() == SystemInfo:language():key() then
+					language_filename = filename
+					break
+				end
+			end
+		end
+
+		if language_filename then
+			loc:load_localization_file(MethManager._path .. 'loc/' .. language_filename)
+		else
+			loc:load_localization_file(MethManager._path .. 'loc/english.txt', false)
+		end
 
 		-- Cook off
 		MethManager.ingredient_dialog["pln_rt1_12"] = {["text"] = loc:text("meth_manager_ing_added")}

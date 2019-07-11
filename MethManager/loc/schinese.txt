@@ -1,5 +1,5 @@
 {
-	"meth_manager_title": "煮盐管理器",
+    "meth_manager_title": "煮盐管理器",
     "meth_manager_description": "防止在 绝命毒师 / 鼠辈 中煮盐放入错误的成分",
 
     "meth_manager_repeat": "重复发送消息",
@@ -9,7 +9,7 @@
     "meth_manager_ing_added": "成分已添加",
 
     "meth_manager_add_mu": "添加 盐酸",
-    "meth_manager_add_cs": "Add 氢氧化钠",
+    "meth_manager_add_cs": "添加 氢氧化钠",
     "meth_manager_add_hcl": "添加 氯化氢",
 
     "meth_manager_meth_done": "一波盐煮完了！",

@@ -1,20 +1,20 @@
 {
-	"meth_manager_title": "煮盐管理器",
-    "meth_manager_description": "防止在 绝命毒师 / 鼠辈 中煮盐放入错误的成分",
+    "meth_manager_title": "煮盐管理器",
+    "meth_manager_description": "防止在特定地图中煮盐放入错误的材料",
 
     "meth_manager_repeat": "重复发送消息",
     "meth_manager_repeat_desc": "重复发送消息或只发送一次",
 
 
-    "meth_manager_ing_added": "成分已添加",
+    "meth_manager_ing_added": "材料已添加",
 
-    "meth_manager_add_mu": "添加 盐酸",
-    "meth_manager_add_cs": "Add 氢氧化钠",
-    "meth_manager_add_hcl": "添加 氯化氢",
+    "meth_manager_add_mu": "添加 盐酸 (MU) ",
+    "meth_manager_add_cs": "添加 烧碱 (CS)",
+    "meth_manager_add_hcl": "添加 氯化氢 (HCl)",
 
-    "meth_manager_meth_done": "一波盐煮完了！",
+    "meth_manager_meth_done": "一批盐煮完了！",
 
 
-    "meth_manager_wrong_ing": "成分错误！",
-    "meth_manager_team_wrong_ing": "刚刚试着加入错误的成分！"
+    "meth_manager_wrong_ing": "材料错误！",
+    "meth_manager_team_wrong_ing": "尝试加入错误的材料！"
 }

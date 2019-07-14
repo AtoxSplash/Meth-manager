@@ -86,7 +86,7 @@ if RequiredScript == "lib/managers/localizationmanager" then
 
 		if BLT.Localization._current == 'cht' or BLT.Localization._current == 'zh-cn' then
 			MethManager._abbreviation_length_v = 2
-			language_filename = 'chinese.txt'
+			language_filename = 'schinese.txt'
 		end
 
 		if not language_filename then

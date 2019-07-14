@@ -86,13 +86,15 @@ if RequiredScript == "lib/managers/localizationmanager" then
 
 		if BLT.Localization._current == 'cht' or BLT.Localization._current == 'zh-cn' then
 			MethManager._abbreviation_length_v = 2
-			language_filename = 'chinese.txt'
+			language_filename = 'schinese.txt'
 		end
 
 		if not language_filename then
 			local modname_to_language = {
-				['Payday 2 Korean patch'] = 'korean.txt',
-				['PAYDAY 2 THAI LANGUAGE Mod'] = 'thai.txt',
+				-- ['Payday 2 Korean patch'] = 'korean.txt',
+				-- ['PAYDAY 2 THAI LANGUAGE Mod'] = 'thai.txt',
+				['chnmod_patch'] = 'schinese.txt',
+				['modschn'] = 'schinese.txt',
 			}
 			for _, mod in pairs(BLT and BLT.Mods:Mods() or {}) do
 				language_filename = mod:IsEnabled() and modname_to_language[mod:GetName()]

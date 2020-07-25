@@ -1,0 +1,20 @@
+{
+	"meth_manager_title": "Meth manager",
+    "meth_manager_description": "Evita agregar el ingrediente incorrecto en Cocineros / Ratas de laboratorio",
+
+    "meth_manager_repeat": "Repetir mensajes",
+    "meth_manager_repeat_desc": "Repetir mensajes o solo enviarlos una vez",
+
+
+    "meth_manager_ing_added": "Ingrediente agregado",
+
+    "meth_manager_add_mu": "Agregar ácido muriático",
+    "meth_manager_add_cs": "Agregar soda cáustica",
+    "meth_manager_add_hcl": "Agregar cloruro de hidrógeno",
+
+    "meth_manager_meth_done": "¡La metanfetamina está lista!",
+
+
+    "meth_manager_wrong_ing": "¡Ingrediente incorrecto!",
+    "meth_manager_team_wrong_ing": "acaba de intentar agregar el ingrediente incorrecto!"
+}
